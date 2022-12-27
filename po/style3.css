@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'M';
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf');
+}
+body{
+    background-color: #e2e2e2;
+}
+#container{
+}
+#capapai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 20px;
+}
+#capa{
+    width: 176.75px;
+    border-radius: 8px;
+}
+#nomep{
+    font-size: 24px;
+    color: #000000;
+}
+#bloco{
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+    padding: 60px;
+    margin-bottom: 140px;
+    text-align: center;
+    border-radius: 16px;
+    box-shadow: 0px 0px 20px 1px #00000060;
+}
+#imgcheck{
+    display: flex;
+    justify-content: center;
+}
+#check{
+    width: 170px;
+    margin-bottom: 40px;
+}
+.aprov{
+    font-size: 35px;
+    font-family: "M";
+    color: #25AE88;
+    margin-bottom: 20px;
+}
+#videopai{
+    display: flex;
+    justify-content: center;
+}
+#video{
+    aspect-ratio: calc(16 / 9);
+    width: 1095px;
+}
+.acesso{
+    font-family: "M";
+    font-size: 26px;
+    color: #000000;
+    margin: 20px;
+    font-weight: 600;
+}
+.acess{
+    font-family: "M";
+    font-size: 20px;
+    color: #666666;
+    margin-bottom: 20px;
+    font-weight: 550;
+}
+#botaop{
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    text-align: center;
+    width: 100%;
+}
+.botao{
+    background-color: #25AE88;
+    text-decoration: none;
+    color:#ffffff;
+    padding: 20px;
+    font-size: 30px;
+    font-family: "M";
+    border-radius: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width: 50%;
+}
+.tambem{
+    font-family: "M";
+    font-size: 20px;
+    color: #666666;
+    margin-bottom: 20px;
+    font-weight: 550;
+}
+#rodape3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    flex-direction: column;
+    background-color: #3D3D3D;
+}
+#logor{
+    width: 240px;
+}
+#agruparr{
+    display: flex;
+    flex-direction: column;
+}
+.rod{
+    font-family: "M";
+    font-weight: initial;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+#rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+#termo{
+    font-size: 16px;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-right: 10px;
+}
+#privacidade{
+    font-size: 16px;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-left: 10px;
+}
+#rodape2{
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.roda{
+    font-family: "M";
+    font-weight: initial;
+    font-size: 16px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+p.barra{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+}
+p{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+}
+@media only screen and (max-width: 768px) {
+    #container{
+    }
+    #capapai{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 26.6px;
+        gap: 13.3px;
+    }
+    #capa{
+        width: 117.83px;
+        border-radius: 8px;
+    }
+    #nomep{
+        font-size: 16px;
+        color: #000000;
+    }
+    #bloco{
+        display: flex;
+        background-color: #ffffff;
+        flex-direction: column;
+        padding: 40px;
+        margin-bottom: 93.3px;
+        text-align: center;
+        border-radius: 10.6px;
+        box-shadow: 0px 0px 13.3px 1px #00000060;
+    }
+    #imgcheck{
+        display: flex;
+        justify-content: center;
+    }
+    #check{
+        width: 113.73px;
+        margin-bottom: 26.6px;
+    }
+    .aprov{
+        font-size: 23.3px;
+        font-family: "M";
+        color: #25AE88;
+        margin-bottom: 13.3px;
+    }
+    #videopai{
+        display: flex;
+        justify-content: center;
+    }
+    #video{
+        aspect-ratio: calc(16 / 9);
+        width: 1095px;
+    }
+    .acesso{
+        font-family: "M";
+        font-size: 17.3px;
+        color: #000000;
+        margin: 13.3px;
+        font-weight: 600;
+    }
+    .acess{
+        font-family: "M";
+        font-size: 13.3px;
+        color: #666666;
+        margin-bottom: 13.3px;
+        font-weight: 550;
+    }
+    #botaop{
+        display: flex;
+        justify-content: center;
+        margin: 0px auto;
+        text-align: center;
+        width: 100%;
+    }
+    .botao{
+        background-color: #25AE88;
+        text-decoration: none;
+        color:#ffffff;
+        padding: 13.3px;
+        font-size: 20px;
+        font-family: "M";
+        border-radius: 10.6px;
+        font-weight: bold;
+        margin-bottom: 13.3px;
+        width: 80%;
+    }
+    .tambem{
+        font-family: "M";
+        font-size: 13.3px;
+        color: #666666;
+        margin-bottom: 13.3px;
+        font-weight: 550;
+    }
+    #rodape3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        flex-direction: column;
+        background-color: #3D3D3D;
+    }
+    #logor{
+        width: 240px;
+    }
+    #agruparr{
+        display: flex;
+        flex-direction: column;
+    }
+    .rod{
+        font-family: "M";
+        font-weight: initial;
+        font-size: 14px;
+        margin-bottom: 6.6px;
+        text-align: center;
+        font-weight: bold;
+    }
+    #rodape{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+    }
+    #termo{
+        font-size: 14px;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        margin-right: 6.6px;
+    }
+    #privacidade{
+        font-size: 14px;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        margin-left: 6.6px;
+    }
+    #rodape2{
+        display: flex;
+        justify-content: center;
+        background-color: #000000;
+        padding: 13.3px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .roda{
+        font-family: "M";
+        font-weight: initial;
+        font-size: 10px;
+        margin-bottom: 16.6px;
+        text-align: center;
+    }
+    p.barra{
+        font-size: 14px;
+        font-weight: bold;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+    }
+    p{
+        font-size: 14px;
+        font-weight: bold;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+    }
+}

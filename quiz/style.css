@@ -1,0 +1,314 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+@font-face {
+    font-family: 'M';
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf');
+}
+#imgpailogo{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+}
+#imgl{
+    width: 340px;
+}
+.containerpai{
+    background-color: #FA403E;
+
+}
+.container {
+    background-color: #FA403E;
+    font-family: "M";
+    color: #ffffff;
+    padding: 40px;
+    margin: 0px auto;
+    display: none;
+    box-sizing: border-box;
+    max-width: 800px;
+}
+.imgpai{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+.imgq{
+    max-width: 400px;
+    min-width: 200px;
+    border-radius: 8px;
+    margin: 0px auto;
+    box-shadow: 0px 0px 10px 1px #00000050;
+}
+input[type="radio"]{
+    margin: 8px;
+}
+hr{
+    margin: 20px 0px;
+}
+.botaopaii{
+    display: flex;
+    justify-content: center;
+}
+button.next, .next {
+    background-color: #000000;
+    border-radius: 8px;
+    font-family: "M";
+    color: #FAFA57;
+    font-weight: bold;
+    border: none;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 20px;
+}
+ul{
+    padding: 10px;
+    box-sizing: border-box;
+}
+li{
+    font-size: 14px;
+    font-family: "M";
+    margin: 10px 0px;
+    font-weight: bold;
+}
+p#se{
+    color: #FAFA57;
+}
+#rodape3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    flex-direction: column;
+    background-color: #3D3D3D;
+}
+#logor{
+    width: 240px;
+}
+#agruparr{
+    display: flex;
+    flex-direction: column;
+}
+.rod{
+    font-family: "M";
+    font-weight: initial;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+#rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+#termo{
+    font-size: 16px;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-right: 10px;
+}
+#privacidade{
+    font-size: 16px;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-left: 10px;
+}
+#rodape2{
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.roda{
+    font-family: "M";
+    font-weight: initial;
+    font-size: 16px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+p.barra{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+}
+p.ppp{
+    font-size: 24px;
+    color: #FAFA57;
+}
+p.pp{
+    font-size: 14px;
+    color: #000000;
+    margin: 10px 0px;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+    margin: 10px 0px;
+}
+@media only screen and (max-width: 768px) {
+    @font-face {
+        font-family: 'M';
+        src: url('../fonts/Montserrat-VariableFont_wght.ttf');
+    }
+    #imgpailogo{
+        display: flex;
+        justify-content: center;
+        background-color: #ffffff;
+    }
+    #imgl{
+        width: 240px;
+    }
+    .containerpai{
+        background-color: #FA403E;
+    
+    }
+    .container {
+        background-color: #FA403E;
+        font-family: "M";
+        color: #ffffff;
+        padding: 20px;
+        margin: 0px auto;
+        display: none;
+        box-sizing: border-box;
+        max-width: 800px;
+    }
+    .imgpai{
+        display: flex;
+        justify-content: center;
+        margin: 40px;
+    }
+    .imgq{
+        max-width: 400px;
+        min-width: 200px;
+        border-radius: 8px;
+        margin: 0px auto;
+        box-shadow: 0px 0px 10px 1px #00000050;
+    }
+    input[type="radio"]{
+        margin-right: 10px;
+    }
+    hr{
+        margin: 20px 0px;
+    }
+    .botaopaii {
+        display: flex;
+        justify-content: center;
+    }
+    button.next, .next {
+        background-color: #000000;
+        border-radius: 8px;
+        font-family: "M";
+        color: #FAFA57;
+        font-weight: bold;
+        border: none;
+        padding: 20px;
+        margin: 20px;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    ul{
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    li{
+        font-size: 14px;
+        font-family: "M";
+        margin: 10px 0px;
+        font-weight: bold;
+    }
+    p#se{
+        color: #FAFA57;
+    }
+    #rodape3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        flex-direction: column;
+        background-color: #3D3D3D;
+    }
+    #logor{
+        width: 240px;
+    }
+    #agruparr{
+        display: flex;
+        flex-direction: column;
+    }
+    .rod{
+        font-family: "M";
+        font-weight: initial;
+        font-size: 14px;
+        margin-bottom: 6.6px;
+        text-align: center;
+        font-weight: bold;
+    }
+    #rodape{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+    }
+    #termo{
+        font-size: 14px;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        margin-right: 6.6px;
+    }
+    #privacidade{
+        font-size: 14px;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        margin-left: 6.6px;
+    }
+    #rodape2{
+        display: flex;
+        justify-content: center;
+        background-color: #000000;
+        padding: 13.3px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .roda{
+        font-family: "M";
+        font-weight: initial;
+        font-size: 10px;
+        margin-bottom: 16.6px;
+        text-align: center;
+    }
+    p.barra{
+        font-size: 14px;
+        font-weight: bold;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+    }
+    p.ppp{
+        font-size: 18px;
+        color: #FAFA57;
+    }
+    p.pp{
+        font-size: 14px;
+        color: #000000;
+        margin: 10px 0px;
+    }
+    p{
+        font-size: 16px;
+        font-weight: bold;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+        margin: 10px 0px;
+    }
+}

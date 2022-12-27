@@ -1,0 +1,617 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'M';
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf');
+}
+body{
+    background-color: #FA403E;
+}
+#container{
+}
+#disppai{
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    flex-direction: row;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#disp{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+    display: flex;
+}
+p.videod{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+}
+#confpai{
+    display: flex;
+    justify-content: center;
+}
+#conf{
+    width: 440px;
+}
+#h3pai{
+    padding: 20px;
+}
+h3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 40px;
+    font-family: "M";
+
+}
+h3.cor{
+    text-align: center;
+    color: #FAFA57;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: "M";
+}
+#h4pai{
+    padding: 0px;
+}
+h4{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "M";
+
+}
+h4.cor{
+    text-align: center;
+    color: #FAFA57;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "M";
+}
+#formpai{
+    padding: 20px;
+}
+#h5pai{
+    margin-top: 20px;
+}
+h5{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "M";
+
+}
+h5.cor{
+    text-align: center;
+    color: #FAFA57;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "M";
+}
+#form{
+    display: flex;
+    flex-direction: column;
+}
+#form input{
+    font-family: "M";
+    padding: 20px;
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 8px;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 0px 10px 1px #00000050;
+}
+#form .btn{
+    background-color: #000000;
+    color: #FAFA57;
+    font-weight: bold;
+    font-size: 26px;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    margin-top: 40px;
+}
+#cadeadose{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0px;
+    margin-bottom: 60px;
+}
+#cadeado{
+    width: 32px;
+    margin-right: 10px;
+}
+.cadead{
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+}
+#titlebbpai{
+}
+.titlebb{
+    color: #ffffff;
+    background-color: #FA403E;
+    padding: 20px;
+}
+#beneficios{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #FA403E;
+}
+.conteudo1{
+    background-color: white;
+    max-width: 240px;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 1px #00000050;
+}
+.imgb{
+    width: 180px;
+}
+.benefi{
+    color: #FA403E;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.benef{
+    color: #FA403E;
+    font-size: 16px;
+}
+#logodes{
+    background-color: white;
+    padding: 80px 20px;
+}
+#agrupar{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    max-width: 600px;
+    margin: 0px auto;
+}
+#imgd{
+    width: 200px;
+    height: 200px;
+}
+#des{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#de{
+    color: #FA403E;
+    margin-bottom: 14px;
+    font-size: 20px;
+}
+#d{
+    color: #000000;
+    font-size: 20px;
+}
+#titleddpai{
+}
+.titledd{
+    color: #ffffff;
+    background-color: #FA403E;
+    padding: 20px;
+}
+#descobrir{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #FA403E;
+}
+.conteudo2{
+    background-color: #ffffff;
+    max-width: 240px;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 1px #00000050;
+}
+.desco{
+    color: #FA403E;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.desc{
+    color: #FA403E;
+    font-size: 16px;
+}
+#rodape3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    flex-direction: column;
+    background-color: #3D3D3D;
+}
+#logor{
+    width: 240px;
+}
+#agruparr{
+    display: flex;
+    flex-direction: column;
+}
+.rod{
+    font-family: "M";
+    font-weight: initial;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+#rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+#termo{
+    font-size: 16px;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-right: 10px;
+}
+#privacidade{
+    font-size: 16px;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-left: 10px;
+}
+#rodape2{
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.roda{
+    font-family: "M";
+    font-weight: initial;
+    font-size: 16px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+p.barra{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+}
+p{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+}
+@media only screen and (max-width: 768px) {
+    #container{
+    }
+    #disppai{
+        display: flex;
+        justify-content: center;
+        background-color: #000000;
+        flex-direction: row;
+        padding: 13.3px;
+        margin-bottom: 13.3px;
+    }
+    #disp{
+        font-size: 16.6px;
+        font-weight: bold;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+        display: flex;
+    }
+    p.videod{
+        font-size: 16px;
+        font-weight: bold;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+    }
+    #confpai{
+        display: flex;
+        justify-content: center;
+    }
+    #conf{
+        width: 180px;
+    }
+    #h3pai{
+        padding: 13.3px;
+    }
+    h3{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 26.6px;
+        font-family: "M";
+    
+    }
+    h3.cor{
+        text-align: center;
+        color: #FAFA57;
+        font-weight: bold;
+        font-size: 26.6px;
+        font-family: "M";
+    }
+    #h4pai{
+        padding: 0px;
+    }
+    h4{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 20px;
+        font-family: "M";
+    
+    }
+    h4.cor{
+        text-align: center;
+        color: #FAFA57;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: "M";
+    }
+    #formpai{
+        padding: 6px;
+    }
+    #h5pai{
+        margin-top: 13.3px;
+        }
+        h5{
+            text-align: center;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            font-size: 13.3px;
+            font-family: "M";
+        
+        }
+        h5.cor{
+            text-align: center;
+            color: #FAFA57;
+            font-weight: bold;
+            font-size: 13.3px;
+            font-family: "M";
+        }
+    #form{
+        display: flex;
+        flex-direction: column;
+    }
+    #form input{
+        font-family: "M";
+        padding: 13.3px;
+        margin: 6.6px auto;
+        width: 70%;
+        border-radius: 5.3px;
+        border: 1px solid #ffffff;
+        box-shadow: 0px 0px 10px 1px #00000050;
+    }
+    #form .btn{
+        background-color: #000000;
+        color: #FAFA57;
+        font-weight: bold;
+        font-size: 17.3px;
+        border: none;
+        box-shadow: none;
+        cursor: pointer;
+        margin-top: 20px; 
+    }
+    #cadeadose{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5.3px 0px;
+        margin-bottom: 40px;
+    }
+    #cadeado{
+        width: 21.3px;
+        margin-right: 6.6px;
+    }
+    .cadead{
+        color: #000000;
+        font-size: 13.3px;
+        text-align: center;
+    }
+    #titlebbpai{
+    }
+    .titlebb{
+        color: #ffffff;
+        background-color: #FA403E;
+        padding: 13.3px;
+    }
+    #beneficios{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 13.3px;
+        background-color: #FA403E;
+    }
+    .conteudo1{
+        background-color: white;
+        max-width: 240px;
+        padding: 20px;
+        border-radius: 13.3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 10px 1px #00000050;
+    }
+    .imgb{
+        width: 120px;
+    }
+    .benefi{
+        color: #FA403E;
+        font-size: 16px;
+        margin-bottom: 6.6px;
+    }
+    .benef{
+        color: #FA403E;
+        font-size: 16px;
+    }
+    #logodes{
+        background-color: white;
+        padding: 53.3px 13.3px;
+    }
+    #agrupar{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        max-width: 600px;
+        margin: 0px auto;
+    }
+    #imgd{
+        width: 133.3px;
+        height: 133.3px;
+    }
+    #des{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #de{
+        color: #FA403E;
+        margin-bottom: 9.3px;
+        font-size: 16px;
+    }
+    #d{
+        color: #000000;
+        font-size: 16px;
+    }
+    #titleddpai{
+    }
+    .titledd{
+        color: #ffffff;
+        background-color: #FA403E;
+        padding: 13.3px;
+    }
+    #descobrir{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 13.3px;
+        background-color: #FA403E;
+    }
+    .conteudo2{
+        background-color: #ffffff;
+        max-width: 240px;
+        padding: 20px;
+        border-radius: 13.3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 10px 1px #00000050;
+    }
+    .desco{
+        color: #FA403E;
+        font-size: 16px;
+        margin-bottom: 6.6px;
+    }
+    .desc{
+        color: #FA403E;
+        font-size: 16px;
+    }
+    #rodape3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        flex-direction: column;
+        background-color: #3D3D3D;
+    }
+    #logor{
+        width: 240px;
+    }
+    #agruparr{
+        display: flex;
+        flex-direction: column;
+    }
+    .rod{
+        font-family: "M";
+        font-weight: initial;
+        font-size: 14px;
+        margin-bottom: 6.6px;
+        text-align: center;
+        font-weight: bold;
+    }
+    #rodape{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+    }
+    #termo{
+        font-size: 14px;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        margin-right: 6.6px;
+    }
+    #privacidade{
+        font-size: 14px;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        margin-left: 6.6px;
+    }
+    #rodape2{
+        display: flex;
+        justify-content: center;
+        background-color: #000000;
+        padding: 13.3px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .roda{
+        font-family: "M";
+        font-weight: initial;
+        font-size: 10px;
+        margin-bottom: 16.6px;
+        text-align: center;
+    }
+    p.barra{
+        font-size: 14px;
+        font-weight: bold;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+    }
+    p{
+        font-size: 14px;
+        font-weight: bold;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+    }
+}/*divisao por 1,5 */

@@ -1,0 +1,1036 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'M';
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf');
+}
+body{
+    background-color: #FA403E;
+}
+#container{
+}
+#disppai{
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    flex-direction: row;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#disp{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+    display: flex;
+}
+p.videod{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+}
+/*#confpai{
+    display: flex;
+    justify-content: center;
+}
+#conf{
+    width: 440px;
+}*/
+#h3pai{
+    padding: 20px;
+}
+h3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 40px;
+    font-family: "M";
+
+}
+h3.cor{
+    text-align: center;
+    color: #FAFA57;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: "M";
+}
+#videopai{
+    display: flex;
+    justify-content: center;
+}
+#video{
+    aspect-ratio: calc(16 / 9);
+    width: 1095px;
+}
+#som{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0px;
+    margin: 30px 0px;
+}
+#img{
+    width: 32px;
+    margin-right: 10px;
+}
+#ps{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: initial;
+    text-align: center;
+    /*border: 1px solid red;*/
+}
+#oferta{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    display: none;
+}
+#ffff{
+    font-size: 24px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+#preco{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    display: none;
+}
+#pppp{
+    font-size: 24px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+#botaopai{
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    text-align: center;
+    display: none;
+}
+#botao{
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    color: #FAFA57;
+    padding: 20px 20px;
+    font-size: 30px;
+    font-family: "M";
+    border-radius: 16px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    animation: pulsee 1s infinite;
+    animation-name: pulsee;
+}
+@keyframes pulsee {
+    50% {
+        transform: scale(1.02);
+    }
+    100%{
+        transform: scale(1.00);
+    }
+}
+#vagas{
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+#vvvv{
+    font-size: 24px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+#pagamentos{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: none;
+}
+#imgpag{
+    max-width: 500px;
+    min-width: 150px;
+}
+#setapai{
+    display: flex;
+    justify-content: center;
+}
+#seta{
+    max-width: 40px;
+    animation-name: pulse;
+    animation: pulse 1s infinite;
+    animation-timing-function: ease-in-out;
+    display: none;
+}
+@keyframes pulse{
+    50%{
+    transform: translateY(-10px);   
+}
+}
+/*#provapai{
+    display: flex;
+    justify-content: initial;
+    max-width: 1100px;
+    background-color: #ffffff;
+    margin: 0px auto;
+    flex-direction: column;
+    padding: 26px;
+    display: none;
+}
+#comentariopai{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-weight: initial;
+    margin: 20px;
+}
+.bloco{
+    display: flex;
+    width: 100%;
+    margin-bottom: 26px;
+    flex-direction: row;
+}
+.imgc{
+    width: 60px;
+    height: 60px;
+}
+.prov{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.nome{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #365899;
+}
+.comentario{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-weight: initial;
+    margin: 6px 0px;
+}
+.like{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+}*/
+#titlebbpai{
+    display: none;
+}
+.titlebb{
+    color: #ffffff;
+    background-color: #FA403E;
+    padding: 20px;
+}
+#beneficios{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #FA403E;
+    display: none;
+}
+.conteudo1{
+    background-color: white;
+    max-width: 240px;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 1px #00000050;
+}
+.imgb{
+    width: 180px;
+}
+.benefi{
+    color: #FA403E;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.benef{
+    color: #FA403E;
+    font-size: 16px;
+}
+#logodes{
+    background-color: white;
+    padding: 80px 20px;
+    display: none;
+}
+#agrupar{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    max-width: 600px;
+    margin: 0px auto;
+}
+#imgd{
+    width: 200px;
+    height: 200px;
+}
+#des{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#de{
+    color: #FA403E;
+    margin-bottom: 14px;
+    font-size: 20px;
+}
+#d{
+    color: #000000;
+    font-size: 20px;
+}
+#titleddpai{
+    display: none;
+}
+.titledd{
+    color: #ffffff;
+    background-color: #FA403E;
+    padding: 20px;
+}
+#descobrir{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #FA403E;
+    display: none;
+}
+.conteudo2{
+    background-color: #ffffff;
+    max-width: 240px;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 1px #00000050;
+}
+.desco{
+    color: #FA403E;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.desc{
+    color: #FA403E;
+    font-size: 16px;
+}
+#pitch2{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    display: none;
+}
+#imgpi2{
+    max-width: 600px;
+    min-width: 200px;
+}
+#pitch{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    display: none;
+}
+#imgpi{
+    max-width: 600px;
+    min-width: 200px;
+}
+#botao2caixa{
+    background-color: #e2e2e2;
+    padding: 30px;
+    display: none;
+}
+#botaopai2{
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    text-align: center;
+    display: none;
+}
+#botao2{
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    color: #FAFA57;
+    padding: 20px 20px;
+    font-size: 30px;
+    font-family: "M";
+    border-radius: 16px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    animation: pulsee 1s infinite;
+    animation-name: pulsee;
+}
+#vagas2{
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+#vvvv2{
+    font-size: 24px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: initial;
+    font-weight: 600;
+}
+#pagamentos2{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: none;
+}
+#imgpag2{
+    max-width: 500px;
+    min-width: 150px;
+}
+#garantia{
+    background-color: #FA403E;
+    padding: 80px 20px;
+    display: none;
+} 
+#garant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 0px auto;
+}
+#imggg{
+    margin-right: 18px;
+    width: 200px;
+}
+#garan{
+
+}
+#perguntas{
+    background-color: #ffffff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.titleppp{
+    color:#FA403E;
+    margin-bottom: 18px;
+}
+.pergunt{
+    color: #FA403E;
+    font-family: "M";
+    font-weight: bold;
+    border: 2px solid #FA403E;
+    padding: 18px;
+    margin: 0px auto;
+    width: 80%;
+}
+.pergun{
+    font-size: 20px;
+}
+.pergu{
+    color: #FA403E;
+    margin-top: 10px;
+    font-size: 18px;
+}
+#rodape3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    flex-direction: column;
+    background-color: #3D3D3D;
+}
+#logor{
+    width: 240px;
+}
+#agruparr{
+    display: flex;
+    flex-direction: column;
+}
+.rod{
+    font-family: "M";
+    font-weight: initial;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+#rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+#termo{
+    font-size: 16px;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-right: 10px;
+}
+#privacidade{
+    font-size: 16px;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-left: 10px;
+}
+#rodape2{
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.roda{
+    font-family: "M";
+    font-weight: initial;
+    font-size: 16px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+p.barra{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+}
+p{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "M";
+    color: rgb(255, 255, 255);
+}
+@media only screen and (max-width: 768px) {
+    #container{
+    }
+    #disppai{
+        display: flex;
+        justify-content: center;
+        background-color: #000000;
+        flex-direction: row;
+        padding: 13.3px;
+        margin-bottom: 13.3px;
+    }
+    #disp{
+        font-size: 16.6px;
+        font-weight: bold;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+        display: flex;
+    }
+    p.videod{
+        font-size: 16px;
+        font-weight: bold;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+    }
+    /*#confpai{
+        display: flex;
+        justify-content: center;
+    }
+    #conf{
+        width: 240px;
+    }*/s
+    #h3pai{
+        padding: 13.3px;
+    }
+    h3{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 20px;
+        font-family: "M";
+    
+    }
+    h3.cor{
+        text-align: center;
+        color: #FAFA57;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: "M";
+    }
+    #videopai{
+        display: flex;
+        justify-content: center;
+    }
+    #video{
+        aspect-ratio: calc(16 / 9);
+        width: 1095px;
+    }
+    #som{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5.3px 0px;
+        margin: 20px 0px;
+    }
+    #img{
+        width: 21.3px;
+        margin-right: 6.6px;
+    }
+    #ps{
+        color: rgb(255, 255, 255);
+        font-size: 12px;
+        font-weight: initial;
+        text-align: center;
+        /*border: 1px solid red;*/
+    }
+    #oferta{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        display: none;
+    }
+    #ffff{
+        font-size: 16px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-weight: 600;
+    }
+    #preco{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        display: none;
+    }
+    #pppp{
+        font-size: 16px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+    }
+    #botaopai{
+        display: flex;
+        justify-content: center;
+        margin: 0px auto;
+        text-align: center;
+        display: none;
+    }
+    #botao{
+        background-color: black;
+        text-decoration: none;
+        color: #FAFA57;
+        padding: 13.3px;
+        font-size: 20px;
+        font-family: "M";
+        border-radius: 10.6px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        width: 80%;
+        animation: pulsee 1s infinite;
+        animation-name: pulsee;
+    }
+    @keyframes pulsee {
+        50% {
+            transform: scale(1.02);
+        }
+        100%{
+            transform: scale(1.00);
+        }
+    }
+    #vagas{
+        display: flex;
+        justify-content: center;
+        display: none;
+    }
+    #vvvv{
+        font-size: 16px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+    }
+    #pagamentos{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        display: none;
+    }
+    #imgpag{
+        width: 300px;
+        min-width: 150px;
+    }
+    #setapai{
+        display: flex;
+        justify-content: center;
+    }
+    #seta{
+        max-width: 40px;
+        animation-name: pulse;
+        animation: pulse 1s infinite;
+        animation-timing-function: ease-in-out;
+        display: none;
+    }
+    @keyframes pulse{
+        50%{
+        transform: translateY(-10px);   
+    }
+    }
+    /*#provapai{
+        display: flex;
+        justify-content: initial;
+        max-width: 1100px;
+        background-color: #ffffff;
+        margin: 0px auto;
+        flex-direction: column;
+        padding: 17.3px;
+        display: none;
+    }
+    #comentariopai{
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #000000;
+        font-weight: initial;
+        margin: 13.3px;
+    }
+    .bloco{
+        display: flex;
+        width: 100%;
+        margin-bottom: 17.3px;
+        flex-direction: row;
+    }
+    .imgc{
+        width: 40px;
+        height: 40px;
+    }
+    .prov{
+        display: flex;
+        flex-direction: column;
+        margin-left: 13.3px;
+    }
+    .nome{
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #365899;
+    }
+    .comentario{
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #000000;
+        font-weight: initial;
+        margin: 4px 0px;
+    }
+    .like{
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #666666;
+    }*/
+    #titlebbpai{
+        display: none;
+    }
+    .titlebb{
+        color: #ffffff;
+        background-color: #FA403E;
+        padding: 13.3px;
+    }
+    #beneficios{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 13.3px;
+        background-color: #FA403E;
+        display: none;
+    }
+    .conteudo1{
+        background-color: white;
+        max-width: 240px;
+        padding: 20px;
+        border-radius: 13.3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 10px 1px #00000050;
+    }
+    .imgb{
+        width: 120px;
+    }
+    .benefi{
+        color: #FA403E;
+        font-size: 18px;
+        margin-bottom: 6.6px;
+    }
+    .benef{
+        color: #FA403E;
+        font-size: 16px;
+    }
+    #logodes{
+        background-color: white;
+        padding: 53.3px 13.3px;
+        display: none;
+    }
+    #agrupar{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        max-width: 600px;
+        margin: 0px auto;
+    }
+    #imgd{
+        width: 133.3px;
+        height: 133.3px;
+    }
+    #des{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #de{
+        color: #FA403E;
+        margin-bottom: 9.3px;
+        font-size: 16px;
+    }
+    #d{
+        color: #000000;
+        font-size: 16px;
+    }
+    #titleddpai{
+        display: none;
+    }
+    .titledd{
+        color: #ffffff;
+        background-color: #FA403E;
+        padding: 13.3px;
+    }
+    #descobrir{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 13.3px;
+        background-color: #FA403E;
+        display: none;
+    }
+    .conteudo2{
+        background-color: #ffffff;
+        max-width: 240px;
+        padding: 20px;
+        border-radius: 13.3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 10px 1px #00000050;
+    }
+    .desco{
+        color: #FA403E;
+        font-size: 18px;
+        margin-bottom: 6.6px;
+    }
+    .desc{
+        color: #FA403E;
+        font-size: 16px;
+    }
+    #pitch2{
+        display: flex;
+        justify-content: center;
+        background-color: #ffffff;
+        display: none;
+    }
+    #imgpi2{
+        max-width: 600px;
+        min-width: 200px;
+    }
+    #pitch{
+        display: flex;
+        justify-content: center;
+        background-color: #ffffff;
+        display: none;
+    }
+    #imgpi{
+        max-width: 600px;
+        min-width: 200px;
+    }
+    #botao2caixa{
+        background-color: #e2e2e2;
+        padding: 20px;
+        display: none;
+    }
+    #botaopai2{
+        display: flex;
+        justify-content: center;
+        margin: 0px auto;
+        text-align: center;
+        display: none;
+    }
+    #botao2{
+        background-color: black;
+        text-decoration: none;
+        color: #FAFA57;
+        padding: 13.3px;
+        font-size: 20px;
+        font-family: "M";
+        border-radius: 10.6px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        width: 80%;
+        animation: pulsee 1s infinite;
+        animation-name: pulsee;
+    }
+    #vagas2{
+        display: flex;
+        justify-content: center;
+        display: none;
+    }
+    #vvvv2{
+        font-size: 16px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-weight: 600;
+    }
+    #pagamentos2{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        display: none;
+    }
+    #imgpag2{
+        width: 300px;
+        min-width: 150px;
+    }
+    #garantia{
+        background-color: #FA403E;
+        padding: 53.3px 13.3px;
+        display: none;
+    } 
+    #garant{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 600px;
+        margin: 0px auto;
+    }
+    #imggg{
+        margin-right: 12px;
+        width: 133.3px;
+    }
+    #garan{
+        font-size: 13.3px;
+    }
+    #perguntas{
+        background-color: #ffffff;
+        padding: 26.6px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: none;
+    }
+    .titleppp{
+        color:#FA403E;
+        margin-bottom: 12px;
+    }
+    .pergunt{
+        color: #FA403E;
+        font-family: "M";
+        font-weight: bold;
+        border: 1.3px solid #FA403E;
+        padding: 12px;
+        margin: 0px auto;
+        width: 80%;
+    }
+    .pergun{
+        font-size: 16px;
+    }
+    .pergu{
+        color: #FA403E;
+        margin-top: 6.6px;
+        font-size: 16px;
+    }
+    #rodape3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        flex-direction: column;
+        background-color: #3D3D3D;
+    }
+    #logor{
+        width: 240px;
+    }
+    #agruparr{
+        display: flex;
+        flex-direction: column;
+    }
+    .rod{
+        font-family: "M";
+        font-weight: initial;
+        font-size: 14px;
+        margin-bottom: 6.6px;
+        text-align: center;
+        font-weight: bold;
+    }
+    #rodape{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+    }
+    #termo{
+        font-size: 14px;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        margin-right: 6.6px;
+    }
+    #privacidade{
+        font-size: 14px;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        margin-left: 6.6px;
+    }
+    #rodape2{
+        display: flex;
+        justify-content: center;
+        background-color: #000000;
+        padding: 13.3px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .roda{
+        font-family: "M";
+        font-weight: initial;
+        font-size: 10px;
+        margin-bottom: 16.6px;
+        text-align: center;
+    }
+    p.barra{
+        font-size: 14px;
+        font-weight: bold;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+    }
+    p{
+        font-size: 14px;
+        font-weight: bold;
+        font-family: "M";
+        color: rgb(255, 255, 255);
+    }
+}/*divisao por 1,5 */

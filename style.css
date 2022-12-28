@@ -114,7 +114,7 @@ p#preç{
     display: none;
 }
 #botao{
-    background-color: #00DD00;
+    background: linear-gradient(to top,#009900, #00DD00) ;
     text-decoration: none;
     color: #ffffff;
     padding: 20px 20px;
@@ -126,7 +126,7 @@ p#preç{
     animation: pulsee 1s infinite;
     animation-name: pulsee;
     cursor: pointer;
-    border: none;
+    border: 4px solid #009900;
 }
 @keyframes pulsee {
     50% {
@@ -478,7 +478,7 @@ p{
         display: none;
     }
     #botao{
-        background-color: #00DD00;
+        background: linear-gradient(to top,#009900, #00DD00) ;
         text-decoration: none;
         color: #ffffff;
         padding: 13.3px;
@@ -490,6 +490,7 @@ p{
         width: 80%;
         animation: pulsee 1s infinite;
         animation-name: pulsee;
+        border: 4px solid #009900;
     }
     @keyframes pulsee {
         50% {

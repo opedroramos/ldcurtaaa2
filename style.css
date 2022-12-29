@@ -57,16 +57,19 @@ h3{
     text-align: center;
     color: rgb(0, 0, 0);
     font-weight: bold;
-    font-size: 30px;
+    font-size: 22px;
     font-family: "M";
 }
 h3.cor{
     text-align: center;
-    color: #000000;
+    color: #C4170C;
     font-weight: bold;
     font-size: 22px;
     font-family: "M";
-    margin-top: 22px;
+}
+mark.corr{
+    color: #C4170C;
+    background-color: #ffffff00;
 }
 #imgnoticia{
 }
@@ -421,7 +424,7 @@ p{
         text-align: center;
         color: rgb(0, 0, 0);
         font-weight: bold;
-        font-size: 18px;
+        font-size: 16px;
         font-family: "M";    
     }
     h3.cor{
@@ -431,6 +434,10 @@ p{
         font-size: 18px;
         font-family: "M";
         margin-top: 16px;
+    }
+    mark.corr{
+        color: #C4170C;
+        background-color: #ffffff00;
     }
     #imgnoticia{
     }

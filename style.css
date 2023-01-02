@@ -98,17 +98,6 @@ p.obb{
     font-weight: bold;
     font-size: 20px;
 }
-#preço{
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    display: none;
-}
-p#preç{
-    font-size: 28px;
-    color: #000000;
-
-}
 #botaopai{
     display: flex;
     justify-content: center;
@@ -160,6 +149,36 @@ p#preç{
     text-align: center;
     color: #3D3D3D;
     font-weight: 600;
+}
+#pitchhh{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+#preço{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+p#preç{
+    font-size: 28px;
+    color: #ff0000;
+}
+#pre{
+    font-size: 28px;
+    color: #00DD00;
+    margin: 12px;
+}
+#imgpitch{
+    display: block;
+}
+#imgp{
+    transform: rotate(90grad);
+    max-width: 100%;
 }
 #pagamentos{
     display: flex;
@@ -466,17 +485,6 @@ p{
         font-weight: bold;
         font-size: 14px;
     }
-    #preço{
-        margin-top: 15px;
-        display: flex;
-        justify-content: center;
-        display: none;
-    }
-    p#preç{
-        font-size: 20px;
-        color: #000000;
-    
-    }
     #botaopai{
         display: flex;
         justify-content: center;
@@ -528,6 +536,36 @@ p{
         text-align: center;
         color: #3D3D3D;
         font-weight: 600;
+    }
+    #pitchhh{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        display: none;
+    }
+    #preço{
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    p#preç{
+        font-size: 20px;
+        color: #ff0000;
+    }
+    #pre{
+        font-size: 20px;
+        color: #00DD00;
+        margin: 6px;
+    }
+    #imgpitch{
+        display: block;
+    }
+    #imgp{
+        transform: rotate(90grad);
+        max-width: 100%;
     }
     #pagamentos{
         display: flex;

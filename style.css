@@ -330,6 +330,7 @@ p#biog{
     padding: 30px;
     flex-direction: column;
     background-color: #3D3D3D;
+    margin-top: 100px;
 }
 #logor{
     width: 240px;
@@ -717,6 +718,7 @@ p{
         padding: 20px;
         flex-direction: column;
         background-color: #3D3D3D;
+        margin-top: 100px;
     }
     #logor{
         width: 240px;

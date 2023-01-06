@@ -10,7 +10,7 @@
 }
 #bloco{
     display: flex;
-    background-color: #FA403E;
+    background-color: #ffffff;
     flex-direction: column;
     padding: 60px;
     margin: 0px auto;
@@ -28,30 +28,42 @@
     font-family: "M";
     font-size: 60px;
     margin-bottom: 20px;
+    color: #000000;
 }
 .cliq{
     font-family: "M";
     font-size: 30px;
     margin-bottom: 20px;
+    color: #000000;
 }
 #botaopp{
     display: flex;
     justify-content: center;
     margin: 0px auto;
     text-align: center;
-    width: 100%;
 }
 .botao{
-    background-color: rgb(0, 0, 0);
+    background: linear-gradient(to top,#009900, #00DD00) ;
     text-decoration: none;
-    color:#FAFA57;
-    padding: 20px;
+    color: #ffffff;
+    padding: 20px 20px;
     font-size: 30px;
     font-family: "M";
     border-radius: 16px;
     font-weight: bold;
-    margin-bottom: 20px;
-    width: 50%;
+    margin: 30px auto;
+    animation: pulsee 1s infinite;
+    animation-name: pulsee;
+    cursor: pointer;
+    border: 4px solid #009900;
+}
+@keyframes pulsee {
+    50% {
+        transform: scale(1.02);
+    }
+    100%{
+        transform: scale(1.00);
+    }
 }
 #rodape3{
     display: flex;
@@ -60,6 +72,7 @@
     padding: 30px;
     flex-direction: column;
     background-color: #3D3D3D;
+    margin-top: 100px;
 }
 #logor{
     width: 240px;
@@ -110,6 +123,7 @@
     font-size: 16px;
     margin-bottom: 25px;
     text-align: center;
+    max-width: 940px;
 }
 p.barra{
     font-size: 12px;
@@ -128,7 +142,7 @@ p{
     }
     #bloco{
         display: flex;
-        background-color: #FA403E;
+        background-color: #ffffff;
         flex-direction: column;
         padding: 40px;
         margin: 0px auto;
@@ -146,30 +160,34 @@ p{
         font-family: "M";
         font-size: 40px;
         margin-bottom: 13.3px;
+        color: #000000;
     }
     .cliq{
         font-family: "M";
         font-size: 20px;
         margin-bottom: 13.3px;
+        color: #000000;
     }
     #botaopp{
         display: flex;
         justify-content: center;
         margin: 0px auto;
         text-align: center;
-        width: 100%;
     }
     .botao{
-        background-color: rgb(0, 0, 0);
+        background: linear-gradient(to top,#009900, #00DD00) ;
         text-decoration: none;
-        color:#FAFA57;
+        color: #ffffff;
         padding: 13.3px;
-        font-size: 20px;
+        font-size: 30px;
         font-family: "M";
         border-radius: 10.6px;
         font-weight: bold;
-        margin-bottom: 13.3px;
+        margin: 20px auto;
         width: 80%;
+        animation: pulsee 1s infinite;
+        animation-name: pulsee;
+        border: 4px solid #009900;
     }
     #rodape3{
         display: flex;
@@ -178,6 +196,7 @@ p{
         padding: 20px;
         flex-direction: column;
         background-color: #3D3D3D;
+        margin-top: 100px;
     }
     #logor{
         width: 240px;
@@ -228,6 +247,7 @@ p{
         font-size: 10px;
         margin-bottom: 16.6px;
         text-align: center;
+        max-width: 940px;
     }
     p.barra{
         font-size: 14px;

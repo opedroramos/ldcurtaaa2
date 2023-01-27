@@ -1,4 +1,4 @@
-setTimeout(
+/*setTimeout(
     function tempo() {
         var elemento = document.querySelector('#botaopai')
         var elemento11 = document.querySelector('#pagamentos')
@@ -18,4 +18,5 @@ setTimeout(
         //elemento18.style.display = "flex";
 
 
-    }, /*tempo em milisegundos*/ 500)
+    },)*/
+    /*tempo em milisegundos*/

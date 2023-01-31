@@ -6,11 +6,11 @@
     font-family: 'M';
     src: url('fonts/Montserrat-VariableFont_wght.ttf');
 }
-.smartplayer-call-action.callaction_63d40d66b02728000b7d61a3_0 a.smartplayer-call-action--link{
-    font-family: "M";
-}
 body{
     background-color: #ffffff;
+}
+.smartplayer-call-action.callaction_63d93b546254740009be6bdb_0 a.smartplayer-call-action--link{
+    font-family: "M";
 }
 #container{
     max-width: 940px;

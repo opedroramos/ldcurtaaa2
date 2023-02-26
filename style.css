@@ -9,7 +9,7 @@
 body{
     background-color: #ffffff;
 }
-.smartplayer-call-action.callaction_63e692dce40919000ae86721_0 a.smartplayer-call-action--link{
+.smartplayer-call-action.callaction_63fa5e578f7f51000bab3cc2_0 a.smartplayer-call-action--link{
     font-family: "M";
 }
 #container{
@@ -22,7 +22,7 @@ body{
 #conf{
     display: block;
     margin: 0px auto;
-    max-width: 40%;
+    max-width: 70%;
 }
 #h3pai{
     padding: 40px;
@@ -45,14 +45,16 @@ mark.corr{
     color: #C4170C;
     background-color: #ffffff00;
 }
-#rodape3{
+#agruparrodape{
+    margin-top: 100px;
+}
+#rodape1{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 30px;
     flex-direction: column;
     background-color: #3D3D3D;
-    margin-top: 100px;
 }
 #logor{
     width: 240px;
@@ -64,10 +66,10 @@ mark.corr{
 .rod{
     font-family: "M";
     font-weight: initial;
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 10px;
     text-align: center;
-    font-weight: bold;
+    color: #666666;
 }
 #rodape{
     display: flex;
@@ -76,18 +78,20 @@ mark.corr{
     text-align: center;
 }
 #termo{
-    font-size: 16px;
+    font-size: 14px;
     font-family: "M";
-    color: rgb(255, 255, 255);
-    font-weight: bold;
+    color: #666666;
+    font-weight: initial;
     margin-right: 10px;
+    text-decoration: none;
 }
 #privacidade{
-    font-size: 16px;
+    font-size: 14px;
     font-family: "M";
-    color: rgb(255, 255, 255);
-    font-weight: bold;
+    color: #666666;
+    font-weight: initial;
     margin-left: 10px;
+    text-decoration: none;
 }
 #rodape2{
     display: flex;
@@ -100,22 +104,23 @@ mark.corr{
 .roda{
     font-family: "M";
     font-weight: initial;
-    font-size: 16px;
+    font-size: 12px;
     margin-bottom: 25px;
     text-align: center;
     max-width: 940px;
+    color: #666666;
 }
 p.barra{
-    font-size: 12px;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: initial;
     font-family: "M";
-    color: rgb(255, 255, 255);
+    color: #666666;
 }
 p{
     font-size: 16px;
     font-weight: bold;
     font-family: "M";
-    color: rgb(255, 255, 255);
+    color: #666666;
 }
 @media only screen and (max-width: 768px) {
     #container{
@@ -128,7 +133,7 @@ p{
     #conf{
         display: block;
         margin: 0px auto;
-        max-width: 60%;
+        max-width: 80%;
     }
     #h3pai{
         padding: 13.3px;
@@ -152,7 +157,13 @@ p{
         color: #C4170C;
         background-color: #ffffff00;
     }
-    #rodape3{
+    #agruparrodape{
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        left: 0px;
+    }
+    #rodape1{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -171,10 +182,10 @@ p{
     .rod{
         font-family: "M";
         font-weight: initial;
-        font-size: 14px;
+        font-size: 12px;
         margin-bottom: 6.6px;
         text-align: center;
-        font-weight: bold;
+        color: #666666;
     }
     #rodape{
         display: flex;
@@ -183,18 +194,20 @@ p{
         text-align: center;
     }
     #termo{
-        font-size: 14px;
+        font-size: 12px;
         font-family: "M";
-        color: rgb(255, 255, 255);
-        font-weight: bold;
+        color: #666666;
+        font-weight: initial;
         margin-right: 6.6px;
+        text-decoration: none;
     }
     #privacidade{
-        font-size: 14px;
+        font-size: 12px;
         font-family: "M";
-        color: rgb(255, 255, 255);
-        font-weight: bold;
+        color: #666666;
+        font-weight: initial;
         margin-left: 6.6px;
+        text-decoration: none;
     }
     #rodape2{
         display: flex;
@@ -211,17 +224,18 @@ p{
         margin-bottom: 16.6px;
         text-align: center;
         max-width: 940px;
+        color: #666666;
     }
     p.barra{
-        font-size: 14px;
-        font-weight: bold;
+        font-size: 12px;
+        font-weight: initial;
         font-family: "M";
-        color: rgb(255, 255, 255);
+        color: #666666;
     }
     p{
         font-size: 14px;
         font-weight: bold;
         font-family: "M";
-        color: rgb(255, 255, 255);
+        color: #666666;
     }
 }/*divisao por 1,5 */

@@ -45,9 +45,6 @@ mark.corr{
     color: #C4170C;
     background-color: #ffffff00;
 }
-#agruparrodape{
-    margin-top: 100px;
-}
 #rodape1{
     display: flex;
     justify-content: center;
@@ -55,6 +52,7 @@ mark.corr{
     padding: 30px;
     flex-direction: column;
     background-color: #121212;
+    margin-top: 100px;
 }
 #logor{
     width: 240px;
@@ -156,12 +154,6 @@ p{
     mark.corr{
         color: #C4170C;
         background-color: #ffffff00;
-    }
-    #agruparrodape{
-        position: absolute;
-        bottom: 0px;
-        right: 0px;
-        left: 0px;
     }
     #rodape1{
         display: flex;

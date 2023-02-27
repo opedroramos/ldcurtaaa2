@@ -7,7 +7,7 @@
     src: url('fonts/Montserrat-VariableFont_wght.ttf');
 }
 body{
-    background-color: #ffffff;
+    background-color: #000000;
 }
 .smartplayer-call-action.callaction_63fa5e578f7f51000bab3cc2_0 a.smartplayer-call-action--link{
     font-family: "M";
@@ -54,7 +54,7 @@ mark.corr{
     align-items: center;
     padding: 30px;
     flex-direction: column;
-    background-color: #3D3D3D;
+    background-color: #121212;
 }
 #logor{
     width: 240px;
@@ -169,7 +169,7 @@ p{
         align-items: center;
         padding: 20px;
         flex-direction: column;
-        background-color: #3D3D3D;
+        background-color: #121212;
         margin-top: 100px;
     }
     #logor{
